@@ -9,7 +9,7 @@ const useStopwatch = () => {
     const handlePlay = () => {
         setIsPlaying(true)
         counter.current = setInterval(() => {
-            setTime((t) => t+1)
+            setTime((t) => t + 1)
         }, 1000)
     }
 
